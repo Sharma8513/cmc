@@ -1,0 +1,4 @@
+#commands squence
+1) docker-compose up -d
+2) docker build -t my-django-app .
+3) docker run my-django-app python manage.py runserver
